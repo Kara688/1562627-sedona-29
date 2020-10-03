@@ -29,14 +29,81 @@ body {
 .site-navigation {
   list-style: none;
 }
-.site-navigation a (
+.site-navigation a {
   color: var(--black);
-)
+}
 .advantages {
   font-size: 21px;
   line-height:21px;
   background-color: var(--blue);
   text-align: center;
+}
+.contacts {
+  font-size: 21px;
+  line-height:26px;
+  color: var(--black);
+  background: var(--white);
+}
+
+
+
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--black);
+  background-color:var(--white);
+}
+.site-navigation a {
+  color: var(--black);
+}
+.search-parameters h2 {
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+  background-color:var(--white)
+}
+.search-parameters p {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--black);
+  background-color:var(--white)
+}
+.searching-items {
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+  background-color:var(--white);
+  text-align: left;
+  text-transform:uppercase
+}
+.button-one {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white);
+  background-color:var(--blue);
+  text-align: center;
+  text-transform:uppercase
+
+}
+.button-two {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white);
+  background-color:var(--gray);
+  text-align: center;
+  text-transform:uppercase
 }
 .contacts {
   font-size: 21px;
