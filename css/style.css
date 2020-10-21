@@ -6,7 +6,7 @@
   --gray:  #EEEEEE;
 }
 html {
-    height: 100%;
+  height: 100%;
 }
 .page {
   min-height: 100%;
@@ -74,7 +74,9 @@ html {
 
 
 
-
+html {
+  height: 100%;
+}
 .page {
   min-height: 100%;
   display: grid;
@@ -114,6 +116,9 @@ html {
   background-color:var(--white);
   text-align: left;
   text-transform:uppercase
+}
+.wrapper {
+  display: grid;
 }
 .button-one {
   font-size: 14px;
