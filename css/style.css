@@ -111,11 +111,6 @@ html {
   text-align: left;
   text-transform:uppercase
 }
-.searching-items--list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-content: start;
-}
 .wrapper {
   display: grid;
 }
