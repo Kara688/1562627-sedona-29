@@ -36,20 +36,24 @@ html {
   color: var(--black);
   background-color:var(--white);
 }
-.navigation-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
 .header-nav {
   background-color: var( --blue);
 }
 .site-navigation {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .site-navigation a {
   color: var(--black);
+}
+.welcome-sedona {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
 }
 .container {
   width: 1200px;
@@ -74,6 +78,7 @@ html {
   display: flex;
 }
 .advantages-column {
+  display: grid;
   width: 400px;
   height: 256px;
   text-align: center;
@@ -103,6 +108,13 @@ html {
   line-height:26px;
   color: var(--black);
   background: var(--white);
+}
+.contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.website {
+  display: flex;
 }
 .search-parameters h2 {
   font-size: 21px;
