@@ -49,6 +49,13 @@ html {
 .site-navigation a {
   color: var(--black);
 }
+.link-left {
+  margin-right: auto;
+}
+.link-right {
+  margin-left: auto;
+
+}
 .welcome-sedona {
   display: flex;
   justify-content: center;
@@ -88,7 +95,6 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column: 1/-1;
   background-color: brown;
-
 }
 .content-img {
   grid-column: 2/-1;
@@ -113,6 +119,9 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+.contacts-item {
+  list-style: none;
+}
 .website {
   display: flex;
 }
@@ -128,8 +137,20 @@ html {
   color: var(--black);
   background-color:var(--white)
 }
-.searching-items {
+.filters {
   display: flex;
+  flex-wrap: nowrap;
+}
+.searching-filters {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+
+
+.searching-list {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   font-size: 21px;
   line-height: 26px;
@@ -138,16 +159,17 @@ html {
   text-align: left;
   text-transform:uppercase
 }
+.searching-item {
+  display: flex;
+}
+.info {
+  margin-left: 20px;
+}
+.rating {
+  margin-left: auto;
+}
 .wrapper {
   display: grid;
-}
-.img-hotel {
-  display: flex;
-  justify-content: space-between;
-}
-.info-hotel {
-  display: flex;
-  justify-content: space-between;
 }
 .button-one {
   display: inline-block;
