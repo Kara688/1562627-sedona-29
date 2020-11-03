@@ -146,8 +146,6 @@ html {
   flex-wrap: nowrap;
   list-style: none;
 }
-
-
 .searching-list {
   display: flex;
   flex-direction: column;
