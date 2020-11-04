@@ -30,7 +30,6 @@ html {
 .navigation {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 14px;
   line-height: 26px;
   color: var(--black);
@@ -38,6 +37,11 @@ html {
 }
 .header-nav {
   background-color: var( --blue);
+}
+.header-logo {
+  position: absolute;
+  left: 571px;
+  top: 0px;
 }
 .site-navigation {
   display: flex;
@@ -48,6 +52,9 @@ html {
 }
 .site-navigation a {
   color: var(--black);
+  display: block;
+  padding: 25px 20px;
+
 }
 .link-left {
   margin-right: auto;
@@ -60,7 +67,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--blue);
 }
 .container {
   width: 1200px;
@@ -71,7 +77,7 @@ html {
   text-align: center;
   font-size: 21px;
   line-height:21px;
-  background-color: var(--blue);
+  background-color: var(--white);
 
 }
 .advantages-list {
@@ -94,16 +100,30 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column: 1/-1;
-  background-color: brown;
+  background-color: var(--blue);
 }
 .content-img {
   grid-column: 2/-1;
 }
+
 .advantages-item--bridge {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column: 1/-1;
-  background-color: brown;
+  background-color: var(--blue) ;
+  margin: 0;
+  padding: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
 .footer-wrapper {
   display: grid;
