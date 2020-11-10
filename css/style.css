@@ -58,22 +58,28 @@ html {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding: 14px 0 16px;
   list-style: none;
-
 }
 .site-navigation a {
   color: var(--black);
-  display: block;
-  padding: 17px 20px;
+  /* padding: 17px 20px; */
   text-decoration: none;
 }
+.site-navigation .link {
+  width: 25%;
+}
+.link-info a {
+  margin-left: 73px;
+}
 .link-left {
-  margin-right: auto;
+
 }
 .link-right {
-  margin-left: auto;
-
+  text-align: right;
+}
+.link-hotels a {
+  margin-right: 73px;
 }
 .welcome-sedona {
   display: flex;
@@ -97,6 +103,7 @@ html {
   width: 470px;
   line-height: 26px;
   font-size: 21px;
+  margin-bottom: 43px;
 }
 .advantages p {
   font-size: 14px;
