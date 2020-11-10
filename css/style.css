@@ -300,8 +300,7 @@ p.advantages-item-number {
   display: flex;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
 }
 .info {
   margin-left: 20px;
@@ -334,5 +333,22 @@ p.advantages-item-number {
   font-size: 21px;
   line-height:26px;
   color: var(--black);
-  background: var(--white);
+  position: absolute;
+  bottom: 0;
+  padding: 20px 57px;
+  background: rgba(255, 255, 255, 0.9);
+}
+.contacts-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
+  background-color: var(--blue);
+}
+.contacts-list {
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
