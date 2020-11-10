@@ -217,6 +217,33 @@ p.advantages-item-number {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
+.searching {
+  padding-top: 31px;
+  text-align: center;
+}
+.searching h2 {
+  margin-bottom: 33px;
+  font-size: 30px;
+  line-height: 24px;
+}
+.searching p {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  width: 450px;
+}
+.searching-button {
+  width: 548px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px 10px;
+  background-color: var(--brown);
+  text-decoration: none;
+  color: var(--white);
+}
+
 .footer-wrapper {
   display: grid;
   grid-template-columns: 400px 400px 400px;
@@ -271,6 +298,10 @@ p.advantages-item-number {
 }
 .searching-item {
   display: flex;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
 }
 .info {
   margin-left: 20px;
