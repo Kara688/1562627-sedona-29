@@ -148,7 +148,16 @@ html {
 .advantages-item-icon {
   display: flex;
   flex-direction: column;
-  padding: 60px 50px 59px;
+  padding: 60px 50px 82px;
+  font-size: 14px;
+  font-weight: normal;
+
+}
+.advantages-item-icon h3 {
+  margin-bottom: 28px;
+}
+.advantages-item-icon p {
+  margin: 0;
 }
 .box-form {
   right: 462px;
@@ -177,6 +186,11 @@ html {
 .advantages-item-text {
   padding: 50px;
   text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+.advantages-item--bridge .advantages-item-text {
+  padding: 50px 45px 50px;
 }
 .advantages-item-text h2 {
   width: auto;
@@ -187,7 +201,7 @@ html {
   margin: 0;
 }
 p.advantages-item-number {
-  margin-bottom: 14px;
+  margin-bottom: 23px;
 }
 .visually-hidden {
   position: absolute;
