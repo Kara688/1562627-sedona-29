@@ -189,6 +189,9 @@ html {
   font-size: 14px;
   font-weight: normal;
 }
+.advantages-item--gray .advantages-item-text  {
+  padding: 50px 65px 54px;
+}
 .advantages-item--bridge .advantages-item-text {
   padding: 50px 45px 50px;
 }
